@@ -1,0 +1,26 @@
+2017-08-17 18:18:14.345  INFO 63496 --- [main] c.r.demo.Test01SpringBoot02Application   : Starting Test01SpringBoot02Application on GZLX-20170418AG with PID 63496 (D:\log\Test01SpringBoot02\target\classes started by Administrator in D:\log\Test01SpringBoot02)
+2017-08-17 18:18:14.351  INFO 63496 --- [main] c.r.demo.Test01SpringBoot02Application   : No active profile set, falling back to default profiles: default
+2017-08-17 18:18:14.567  INFO 63496 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@491666ad: startup date [Thu Aug 17 18:18:14 CST 2017]; root of context hierarchy
+2017-08-17 18:18:15.829  INFO 63496 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-08-17 18:18:15.838  INFO 63496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-08-17 18:18:15.839  INFO 63496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-08-17 18:18:15.912  INFO 63496 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/spb]    : Initializing Spring embedded WebApplicationContext
+2017-08-17 18:18:15.912  INFO 63496 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1351 ms
+2017-08-17 18:18:16.025  INFO 63496 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-17 18:18:16.028  INFO 63496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-17 18:18:16.029  INFO 63496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-17 18:18:16.029  INFO 63496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-17 18:18:16.029  INFO 63496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-17 18:18:16.335  INFO 63496 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@491666ad: startup date [Thu Aug 17 18:18:14 CST 2017]; root of context hierarchy
+2017-08-17 18:18:16.389  INFO 63496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],produces=[text/plain;charset=UTF-8]}" onto java.lang.String com.roo.demo.Test01SpringBoot02Application.index()
+2017-08-17 18:18:16.394  INFO 63496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-17 18:18:16.394  INFO 63496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-17 18:18:16.419  INFO 63496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-17 18:18:16.420  INFO 63496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-17 18:18:16.450  INFO 63496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-17 18:18:16.571  INFO 63496 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-08-17 18:18:16.620  INFO 63496 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-08-17 18:18:16.624  INFO 63496 --- [main] c.r.demo.Test01SpringBoot02Application   : Started Test01SpringBoot02Application in 2.634 seconds (JVM running for 3.617)
+2017-08-17 18:18:36.498  INFO 63496 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/spb]    : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-17 18:18:36.498  INFO 63496 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-08-17 18:18:36.513  INFO 63496 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
